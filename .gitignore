@@ -1,0 +1,7 @@
+/images/*
+!/images/vanguardsleevelogo.png
+*.xlsx
+*.db
+!vanguard.db
+/modules/__pycache__/*
+*.png
