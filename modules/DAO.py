@@ -27,9 +27,9 @@ class DAO:
         get_cards_clan_count (List[Tuple[int]]) -- returns list of tuples containing clans and number of cards for specific clan.\n
         update_card (bool) -- updates card object, if after update no card with same name exists new card is created.\n
         delete_card (bool) -- deletes specific instance of a card, returns True if there was no Exception.\n
-        __delete_cards__ (bool) -- deletes all cards that don't have any distances, returns True if there was no Exception.\n
+        __delete_cards__ (bool) -- deletes all cards that don't have any instances, returns True if there was no Exception.\n
         add_clan (bool) -- adds new clan to database.\n
-        get_all_clans (List[Clan]) -- returns all clans in databse.\n
+        get_all_clans (List[Clan]) -- returns all clans in database.\n
         get_clans_with_cards (List[Clan]) -- returns clans for which there exisits at least one card.\n
         add_imaginary_gift (bool) -- adds new imaginary gift to database.\n
         add_nation (bool) -- adds new nation to database.
