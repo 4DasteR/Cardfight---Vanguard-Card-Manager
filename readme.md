@@ -30,7 +30,7 @@ Modules from which the app is built are mostly located in [**modules**](./module
 - **plots.py**: This module is used to create and display following plots:
     + Cards distribution among their grades
     + Cards distribution among their classes
-- **scrapper.py**: This module is responsible for web scrapping for images of cards from official [*'Cardfight!! Vanguard'* wiki](https://cardfight.fandom.com/wiki/'). It checks whether card is a reprint, part of start deck or simply new card and then saves the card image into [**images**](./images/) folder. It can be used as standalone app to download card image, however its class' method requires name of a card. It downloades only image for one card at the time, to reduce space occupied by the program.
+- **scrapper.py**: This module is responsible for web scrapping for images of cards from official [*'Cardfight!! Vanguard'* wiki](https://cardfight.fandom.com/wiki/). It checks whether card is a reprint, part of start deck or simply new card and then saves the card image into [**images**](./images/) folder. It can be used as standalone app to download card image, however its class' method requires name of a card. It downloades only image for one card at the time, to reduce space occupied by the program.
 - **loader.py**: This module is used mostly for initialization part and performing backup operations. It can be used to load data into empty database (not supported in main program functionality) and to perform and load backup.
 - **handler.py**: This module is used for utility class *Handler* which allows **main.py** and **gui.py** to access some gui components in an easy way.
 - **gui.py**: This modules is used for everything GUI related. It consits of components such as:
