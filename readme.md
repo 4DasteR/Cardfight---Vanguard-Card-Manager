@@ -40,15 +40,15 @@ Modules from which the app is built are mostly located in [**modules**](./module
 
 ## Example usage
 - **Changing the seleted card**:
-![Card selection](<Card selection.png>)
+![Card selection](https://github.com/4DasteR/Cardfight---Vanguard-Card-Manager/assets/66702087/bd06e3f2-4cdf-47f7-8cc2-6f42cebfe60e)
 - **Filtering cards by clan and/or grade**:
-![Card filtering](<Card grade-clan selection.png>)
+![Card filtering](https://github.com/4DasteR/Cardfight---Vanguard-Card-Manager/assets/66702087/24feee93-42a1-4b94-89fe-18835214606b)
 - **Adding new card**:
-![Card add](<Card add.png>)
+![Card add](https://github.com/4DasteR/Cardfight---Vanguard-Card-Manager/assets/66702087/7511c7ee-b93e-435b-a60c-fcf3c2295e59)
 - **Editing current card**:
-![Card edit](<Card edit.png>)
+![Card edit](https://github.com/4DasteR/Cardfight---Vanguard-Card-Manager/assets/66702087/8b4fa636-de0e-4d0b-a898-1d5e8f26d012)
 - **Deleting current card**:
-![Card delete](<Card delete.png>)
+![Card delete](https://github.com/4DasteR/Cardfight---Vanguard-Card-Manager/assets/66702087/964179c6-89d0-47f0-bb24-4e37a73e51ad)
 
 ## Challenges during development
 - Getting correct image from website. Originaly displayed image on website is one with smaller resolution, in order to properly download higher resolution image i managed to find it through html **<a>** tag which had the url to higher resoultion image.
